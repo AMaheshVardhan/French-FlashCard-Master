@@ -41,7 +41,7 @@ window.title("FlashCard")
 window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
 
-flip_timer = window.after(3000, func=flip_card)
+flip_timer = window.after(3500, func=flip_card)
 
 
 canvas = Canvas(width=800, height=526)
