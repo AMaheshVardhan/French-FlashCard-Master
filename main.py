@@ -59,4 +59,3 @@ known_button = Button(image=check_image, highlightthickness=0, command=is_known)
 known_button.grid(row=1, column=1)
 next_card()
 window.mainloop()
-
