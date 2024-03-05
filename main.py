@@ -39,7 +39,6 @@ window = Tk()
 window.title("FlashCard")
 window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
-
 flip_timer = window.after(3500, func=flip_card)
 
 
